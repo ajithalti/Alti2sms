@@ -34,6 +34,10 @@ MongoClient.connect(url, function(err, db) {
   });
 });
 });
+app.get('/',(req,res)=>{
+       console.log("ddddd sssssssssss");
+       res.send("dddd");
+});
 app.post('/fsignup',(req,res)=>{   
 	console.log('fsignup');
 
