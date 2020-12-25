@@ -34,9 +34,10 @@ MongoClient.connect(url, function(err, db) {
   });
 });
 });
-app.get('/',(req,res)=>{
-       console.log("ddddd sssssssssss");
-       res.send("dddd");
+const path = require('path');
+
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/index.html'));
 });
 app.post('/fsignup',(req,res)=>{   
 	console.log('fsignup');
