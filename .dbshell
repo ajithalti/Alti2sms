@@ -1,0 +1,16 @@
+show database
+ls
+use WT
+db.createCollection('User');
+db.User.insertOne('name':'AJITH KUMAR G','mail':'altiajay2@gmail.com','password':'Ajith');
+db.User.insertOne({'name':'AJITH KUMAR G','mail':'altiajay2@gmail.com','password':'Ajith'});
+db.User.find();
+db.createCollection('messages');
+use WT
+db.createCollection('messages');
+db.createCollection('messages');
+find();
+db.find();
+db.messages.find();
+db.messages.find();
+db.messages.find();

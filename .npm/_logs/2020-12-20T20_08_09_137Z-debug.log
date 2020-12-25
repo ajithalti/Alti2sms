@@ -1,0 +1,39 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/data/data/com.termux/files/usr/bin/node',
+1 verbose cli   '/data/data/com.termux/files/usr/bin/npm',
+1 verbose cli   'start'
+1 verbose cli ]
+2 info using npm@6.14.8
+3 info using node@v14.14.0
+4 verbose config Skipping project config: /data/data/com.termux/files/home/.npmrc. (matches userconfig)
+5 verbose run-script [ 'prestart', 'start', 'poststart' ]
+6 info lifecycle home@1.0.0~prestart: home@1.0.0
+7 info lifecycle home@1.0.0~start: home@1.0.0
+8 verbose lifecycle home@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle home@1.0.0~start: PATH: /data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/data/data/com.termux/files/home/node_modules/.bin:/data/data/com.termux/files/usr/bin:/data/data/com.termux/files/usr/bin/applets
+10 verbose lifecycle home@1.0.0~start: CWD: /data/data/com.termux/files/home
+11 silly lifecycle home@1.0.0~start: Args: [ '-c', 'node server.js' ]
+12 silly lifecycle home@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle home@1.0.0~start: Failed to exec start script
+14 verbose stack Error: home@1.0.0 start: `node server.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js:332:16)
+14 verbose stack     at EventEmitter.emit (events.js:315:20)
+14 verbose stack     at ChildProcess.<anonymous> (/data/data/com.termux/files/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:55:14)
+14 verbose stack     at ChildProcess.emit (events.js:315:20)
+14 verbose stack     at maybeClose (internal/child_process.js:1048:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:288:5)
+15 verbose pkgid home@1.0.0
+16 verbose cwd /data/data/com.termux/files/home
+17 verbose Linux 4.4.192-perf+
+18 verbose argv "/data/data/com.termux/files/usr/bin/node" "/data/data/com.termux/files/usr/bin/npm" "start"
+19 verbose node v14.14.0
+20 verbose npm  v6.14.8
+21 error code ELIFECYCLE
+22 error errno 1
+23 error home@1.0.0 start: `node server.js`
+23 error Exit status 1
+24 error Failed at the home@1.0.0 start script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

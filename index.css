@@ -1,0 +1,92 @@
+body {
+    
+}
+#header
+{
+    background-color:pink;
+    color:purple;
+    border:40px;
+
+    
+}
+#hmenu
+{
+    background-color:pink;
+    color:purple;
+    border:40px;
+
+    left:90%;
+    position:fixed;
+    
+}
+input{
+    border:1px solid lightgreen;
+    text-align:center;
+    height:30px;
+    border-radius:25%;
+    margin-top:5px;
+    
+}
+input:onclick
+{
+    border
+}
+#content
+{
+    background-color:white;
+    color:black;
+}
+#menu
+{
+    border:3px  black;
+    border-radius:10%;
+    height:100%;
+    width:100%;
+    display:none;
+    background-color:white;
+}
+.mbut
+{
+    width:350px;
+    background-color:white;
+    color:black;
+    height:50px;
+    border:0px;
+    text-align:left;
+}
+.mbut:active
+{
+    border:none;
+    background-color:orange;
+}
+.imenu
+{
+    left:5%;
+    position:relative ;
+    display:none;
+}
+#welcome
+{
+    position:fixed;
+    height:100%;
+    left:0px;
+    top:0px;
+    width:100%;
+    background-color:black;
+    color:white;
+    
+}
+#log
+{
+    position:fixed;
+    border:2px solid lightgreen;
+    margin:40px;
+    padding:20px;
+    top:30%;
+    background-color:white;
+}
+
+.but2
+{
+    background-color:white;
+}

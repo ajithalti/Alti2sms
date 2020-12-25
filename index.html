@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Altimessenger</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1"></meta>
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css"></link>
+    </head>
+    <body id="body">
+        <div id="homepage">
+        
+            <div id="header">
+               <h1>Alti2sms</h1><button id="hmenu" onclick="hmenu()"><img  src="https://img.icons8.com/bubbles/50/000000/menu-2.png" height="40px" width="40px"/></button>
+                   
+               <div id="menu">
+                   
+                   <div>
+                        <button class="mbut" onclick="newchat()">New chat</button>
+                        <div id="newchat" style="display:none">
+                <form method="post">
+                    <input type="text" name="nc" required>
+                </form>
+            </div>
+                        <br>
+                        
+                        <button class="mbut" onclick="newgroup()">
+                            New group
+                        </button><br>
+                        <div id="newgroup" style="display:none">
+                <form method="post">
+                    <input type="text" name="ng" required>
+                </form>
+            </div>
+                        
+                   <button class="mbut" onclick="settings()">Settings</button>
+                       <div id="settings" class="imenu">
+                           <div><a href=""><button class="mbut" onclick="profile()">Profile</button></a></div>
+                           <div ><button class="mbut" id="theme" onclick="theme()">Dark theme</button></div>
+                       </div>
+                   </div>
+                   
+                   <div><button class="mbut" onclick="logging()">Log in</button></div>
+                   <div id="log" style="display:none">
+                       <button id="sinb"  class="but2" style="background-color:yellow"onclick="signin()">Sign in</button><button id="supb" class="but2" onclick="signup()" style="">Sign up</button>
+                       <img src="https://lh4.googleusercontent.com/proxy/2TexvjciOoSkJQDUOKiibV1pOZPU10ImFmn_psn5IUzaZ2tfjhfoxb1GBb6IQ-I3QfXNnq_200DBsTB4kt-m4ocM23QNcbnt5UbBVRU0tA=w200-h200" height="30px" width="30px" onclick="closelog()" alt="close" style="position:relative;left:50%" >
+                       <div id="signin" style="">
+                           
+			       <form id='fsignin' method="post" onsubmit="event.preventDefault();" >
+                           <input type="text" name="mail" placeholder="Mail" required>
+                           <input type="password" name="password" placeholder="Password" required>
+                           <br>
+                           <button onclick='act("fsignin");' >Done</button>
+                    
+                       </form>
+                       </div>
+                       <div id="signup" style="display:none">
+                           <form id='fsignup' onsubmit="event.preventDefault();"
+
+method="post">
+                               <input type="text" name="mail" placeholder="Mail" required>
+                           <input type="password" name="password" placeholder="Password" required>
+                           <input type="password" name="cpassword" placeholder="Confirm password"required>
+                           <br>
+			   <button onclick='act("fsignup");' >Done</button>
+			   
+			
+                           </form>
+                       </div>
+                          
+                   </div>
+               </div>
+               
+               
+                
+            </div>
+            <div id="content">
+                
+            </div>
+            <div id="footer">
+                
+            </div>
+        </div>
+            <div id="welcome">
+                <h2 style="left:38%; top:50%;position:relative;" >Alti2sms</h2>
+                
+                <progress id="prog" style="top:90%;left:30%;position:fixed;" min="0" max="100"></progress>
+            </div>
+            
+            
+        
+    </body>
+</html>
